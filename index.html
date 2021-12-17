@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src = "https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src = "https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+    <script type="module">
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyCEQnpRj7_riVWellZ4mJVkK8k8vASPFPY",
+        authDomain: "balao-de-ar-quente-b84bb.firebaseapp.com",
+        databaseURL: "https://balao-de-ar-quente-b84bb-default-rtdb.firebaseio.com",
+        projectId: "balao-de-ar-quente-b84bb",
+        storageBucket: "balao-de-ar-quente-b84bb.appspot.com",
+        messagingSenderId: "73278714231",
+        appId: "1:73278714231:web:1017eaa8225c9ef937f172"
+      };
+    
+      // Initialize Firebase
+      const app = firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
